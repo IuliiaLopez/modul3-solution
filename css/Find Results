@@ -1,0 +1,625 @@
+Searching 4 files for "navbar"
+
+/Users/julia/Documents/Programming/coursearea/training/modul3-solution/css/bootstrap.css:
+ 4320  }
+ 4321  
+ 4322: .navbar {
+ 4323    position: relative;
+ 4324    display: -ms-flexbox;
+ ....
+ 4333  }
+ 4334  
+ 4335: .navbar .container,
+ 4336: .navbar .container-fluid, .navbar .container-sm, .navbar .container-md, .navbar .container-lg, .navbar .container-xl {
+ 4337    display: -ms-flexbox;
+ 4338    display: flex;
+ ....
+ 4345  }
+ 4346  
+ 4347: .navbar-brand {
+ 4348    display: inline-block;
+ 4349    padding-top: 0.3125rem;
+ ....
+ 4355  }
+ 4356  
+ 4357: .navbar-brand:hover, .navbar-brand:focus {
+ 4358    text-decoration: none;
+ 4359  }
+ 4360  
+ 4361: .navbar-nav {
+ 4362    display: -ms-flexbox;
+ 4363    display: flex;
+ ....
+ 4369  }
+ 4370  
+ 4371: .navbar-nav .nav-link {
+ 4372    padding-right: 0;
+ 4373    padding-left: 0;
+ 4374  }
+ 4375  
+ 4376: .navbar-nav .dropdown-menu {
+ 4377    position: static;
+ 4378    float: none;
+ 4379  }
+ 4380  
+ 4381: .navbar-text {
+ 4382    display: inline-block;
+ 4383    padding-top: 0.5rem;
+ ....
+ 4385  }
+ 4386  
+ 4387: .navbar-collapse {
+ 4388    -ms-flex-preferred-size: 100%;
+ 4389    flex-basis: 100%;
+ ....
+ 4394  }
+ 4395  
+ 4396: .navbar-toggler {
+ 4397    padding: 0.25rem 0.75rem;
+ 4398    font-size: 1.25rem;
+ ....
+ 4403  }
+ 4404  
+ 4405: .navbar-toggler:hover, .navbar-toggler:focus {
+ 4406    text-decoration: none;
+ 4407  }
+ 4408  
+ 4409: .navbar-toggler-icon {
+ 4410    display: inline-block;
+ 4411    width: 1.5em;
+ ....
+ 4418  
+ 4419  @media (max-width: 575.98px) {
+ 4420:   .navbar-expand-sm > .container,
+ 4421:   .navbar-expand-sm > .container-fluid, .navbar-expand-sm > .container-sm, .navbar-expand-sm > .container-md, .navbar-expand-sm > .container-lg, .navbar-expand-sm > .container-xl {
+ 4422      padding-right: 0;
+ 4423      padding-left: 0;
+ ....
+ 4426  
+ 4427  @media (min-width: 576px) {
+ 4428:   .navbar-expand-sm {
+ 4429      -ms-flex-flow: row nowrap;
+ 4430      flex-flow: row nowrap;
+ ....
+ 4432      justify-content: flex-start;
+ 4433    }
+ 4434:   .navbar-expand-sm .navbar-nav {
+ 4435      -ms-flex-direction: row;
+ 4436      flex-direction: row;
+ 4437    }
+ 4438:   .navbar-expand-sm .navbar-nav .dropdown-menu {
+ 4439      position: absolute;
+ 4440    }
+ 4441:   .navbar-expand-sm .navbar-nav .nav-link {
+ 4442      padding-right: 0.5rem;
+ 4443      padding-left: 0.5rem;
+ 4444    }
+ 4445:   .navbar-expand-sm > .container,
+ 4446:   .navbar-expand-sm > .container-fluid, .navbar-expand-sm > .container-sm, .navbar-expand-sm > .container-md, .navbar-expand-sm > .container-lg, .navbar-expand-sm > .container-xl {
+ 4447      -ms-flex-wrap: nowrap;
+ 4448      flex-wrap: nowrap;
+ 4449    }
+ 4450:   .navbar-expand-sm .navbar-collapse {
+ 4451      display: -ms-flexbox !important;
+ 4452      display: flex !important;
+ ....
+ 4454      flex-basis: auto;
+ 4455    }
+ 4456:   .navbar-expand-sm .navbar-toggler {
+ 4457      display: none;
+ 4458    }
+ ....
+ 4460  
+ 4461  @media (max-width: 767.98px) {
+ 4462:   .navbar-expand-md > .container,
+ 4463:   .navbar-expand-md > .container-fluid, .navbar-expand-md > .container-sm, .navbar-expand-md > .container-md, .navbar-expand-md > .container-lg, .navbar-expand-md > .container-xl {
+ 4464      padding-right: 0;
+ 4465      padding-left: 0;
+ ....
+ 4468  
+ 4469  @media (min-width: 768px) {
+ 4470:   .navbar-expand-md {
+ 4471      -ms-flex-flow: row nowrap;
+ 4472      flex-flow: row nowrap;
+ ....
+ 4474      justify-content: flex-start;
+ 4475    }
+ 4476:   .navbar-expand-md .navbar-nav {
+ 4477      -ms-flex-direction: row;
+ 4478      flex-direction: row;
+ 4479    }
+ 4480:   .navbar-expand-md .navbar-nav .dropdown-menu {
+ 4481      position: absolute;
+ 4482    }
+ 4483:   .navbar-expand-md .navbar-nav .nav-link {
+ 4484      padding-right: 0.5rem;
+ 4485      padding-left: 0.5rem;
+ 4486    }
+ 4487:   .navbar-expand-md > .container,
+ 4488:   .navbar-expand-md > .container-fluid, .navbar-expand-md > .container-sm, .navbar-expand-md > .container-md, .navbar-expand-md > .container-lg, .navbar-expand-md > .container-xl {
+ 4489      -ms-flex-wrap: nowrap;
+ 4490      flex-wrap: nowrap;
+ 4491    }
+ 4492:   .navbar-expand-md .navbar-collapse {
+ 4493      display: -ms-flexbox !important;
+ 4494      display: flex !important;
+ ....
+ 4496      flex-basis: auto;
+ 4497    }
+ 4498:   .navbar-expand-md .navbar-toggler {
+ 4499      display: none;
+ 4500    }
+ ....
+ 4502  
+ 4503  @media (max-width: 991.98px) {
+ 4504:   .navbar-expand-lg > .container,
+ 4505:   .navbar-expand-lg > .container-fluid, .navbar-expand-lg > .container-sm, .navbar-expand-lg > .container-md, .navbar-expand-lg > .container-lg, .navbar-expand-lg > .container-xl {
+ 4506      padding-right: 0;
+ 4507      padding-left: 0;
+ ....
+ 4510  
+ 4511  @media (min-width: 992px) {
+ 4512:   .navbar-expand-lg {
+ 4513      -ms-flex-flow: row nowrap;
+ 4514      flex-flow: row nowrap;
+ ....
+ 4516      justify-content: flex-start;
+ 4517    }
+ 4518:   .navbar-expand-lg .navbar-nav {
+ 4519      -ms-flex-direction: row;
+ 4520      flex-direction: row;
+ 4521    }
+ 4522:   .navbar-expand-lg .navbar-nav .dropdown-menu {
+ 4523      position: absolute;
+ 4524    }
+ 4525:   .navbar-expand-lg .navbar-nav .nav-link {
+ 4526      padding-right: 0.5rem;
+ 4527      padding-left: 0.5rem;
+ 4528    }
+ 4529:   .navbar-expand-lg > .container,
+ 4530:   .navbar-expand-lg > .container-fluid, .navbar-expand-lg > .container-sm, .navbar-expand-lg > .container-md, .navbar-expand-lg > .container-lg, .navbar-expand-lg > .container-xl {
+ 4531      -ms-flex-wrap: nowrap;
+ 4532      flex-wrap: nowrap;
+ 4533    }
+ 4534:   .navbar-expand-lg .navbar-collapse {
+ 4535      display: -ms-flexbox !important;
+ 4536      display: flex !important;
+ ....
+ 4538      flex-basis: auto;
+ 4539    }
+ 4540:   .navbar-expand-lg .navbar-toggler {
+ 4541      display: none;
+ 4542    }
+ ....
+ 4544  
+ 4545  @media (max-width: 1199.98px) {
+ 4546:   .navbar-expand-xl > .container,
+ 4547:   .navbar-expand-xl > .container-fluid, .navbar-expand-xl > .container-sm, .navbar-expand-xl > .container-md, .navbar-expand-xl > .container-lg, .navbar-expand-xl > .container-xl {
+ 4548      padding-right: 0;
+ 4549      padding-left: 0;
+ ....
+ 4552  
+ 4553  @media (min-width: 1200px) {
+ 4554:   .navbar-expand-xl {
+ 4555      -ms-flex-flow: row nowrap;
+ 4556      flex-flow: row nowrap;
+ ....
+ 4558      justify-content: flex-start;
+ 4559    }
+ 4560:   .navbar-expand-xl .navbar-nav {
+ 4561      -ms-flex-direction: row;
+ 4562      flex-direction: row;
+ 4563    }
+ 4564:   .navbar-expand-xl .navbar-nav .dropdown-menu {
+ 4565      position: absolute;
+ 4566    }
+ 4567:   .navbar-expand-xl .navbar-nav .nav-link {
+ 4568      padding-right: 0.5rem;
+ 4569      padding-left: 0.5rem;
+ 4570    }
+ 4571:   .navbar-expand-xl > .container,
+ 4572:   .navbar-expand-xl > .container-fluid, .navbar-expand-xl > .container-sm, .navbar-expand-xl > .container-md, .navbar-expand-xl > .container-lg, .navbar-expand-xl > .container-xl {
+ 4573      -ms-flex-wrap: nowrap;
+ 4574      flex-wrap: nowrap;
+ 4575    }
+ 4576:   .navbar-expand-xl .navbar-collapse {
+ 4577      display: -ms-flexbox !important;
+ 4578      display: flex !important;
+ ....
+ 4580      flex-basis: auto;
+ 4581    }
+ 4582:   .navbar-expand-xl .navbar-toggler {
+ 4583      display: none;
+ 4584    }
+ 4585  }
+ 4586  
+ 4587: .navbar-expand {
+ 4588    -ms-flex-flow: row nowrap;
+ 4589    flex-flow: row nowrap;
+ ....
+ 4592  }
+ 4593  
+ 4594: .navbar-expand > .container,
+ 4595: .navbar-expand > .container-fluid, .navbar-expand > .container-sm, .navbar-expand > .container-md, .navbar-expand > .container-lg, .navbar-expand > .container-xl {
+ 4596    padding-right: 0;
+ 4597    padding-left: 0;
+ 4598  }
+ 4599  
+ 4600: .navbar-expand .navbar-nav {
+ 4601    -ms-flex-direction: row;
+ 4602    flex-direction: row;
+ 4603  }
+ 4604  
+ 4605: .navbar-expand .navbar-nav .dropdown-menu {
+ 4606    position: absolute;
+ 4607  }
+ 4608  
+ 4609: .navbar-expand .navbar-nav .nav-link {
+ 4610    padding-right: 0.5rem;
+ 4611    padding-left: 0.5rem;
+ 4612  }
+ 4613  
+ 4614: .navbar-expand > .container,
+ 4615: .navbar-expand > .container-fluid, .navbar-expand > .container-sm, .navbar-expand > .container-md, .navbar-expand > .container-lg, .navbar-expand > .container-xl {
+ 4616    -ms-flex-wrap: nowrap;
+ 4617    flex-wrap: nowrap;
+ 4618  }
+ 4619  
+ 4620: .navbar-expand .navbar-collapse {
+ 4621    display: -ms-flexbox !important;
+ 4622    display: flex !important;
+ ....
+ 4625  }
+ 4626  
+ 4627: .navbar-expand .navbar-toggler {
+ 4628    display: none;
+ 4629  }
+ 4630  
+ 4631: .navbar-light .navbar-brand {
+ 4632    color: rgba(0, 0, 0, 0.9);
+ 4633  }
+ 4634  
+ 4635: .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
+ 4636    color: rgba(0, 0, 0, 0.9);
+ 4637  }
+ 4638  
+ 4639: .navbar-light .navbar-nav .nav-link {
+ 4640    color: rgba(0, 0, 0, 0.5);
+ 4641  }
+ 4642  
+ 4643: .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+ 4644    color: rgba(0, 0, 0, 0.7);
+ 4645  }
+ 4646  
+ 4647: .navbar-light .navbar-nav .nav-link.disabled {
+ 4648    color: rgba(0, 0, 0, 0.3);
+ 4649  }
+ 4650  
+ 4651: .navbar-light .navbar-nav .show > .nav-link,
+ 4652: .navbar-light .navbar-nav .active > .nav-link,
+ 4653: .navbar-light .navbar-nav .nav-link.show,
+ 4654: .navbar-light .navbar-nav .nav-link.active {
+ 4655    color: rgba(0, 0, 0, 0.9);
+ 4656  }
+ 4657  
+ 4658: .navbar-light .navbar-toggler {
+ 4659    color: rgba(0, 0, 0, 0.5);
+ 4660    border-color: rgba(0, 0, 0, 0.1);
+ 4661  }
+ 4662  
+ 4663: .navbar-light .navbar-toggler-icon {
+ 4664    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+ 4665  }
+ 4666  
+ 4667: .navbar-light .navbar-text {
+ 4668    color: rgba(0, 0, 0, 0.5);
+ 4669  }
+ 4670  
+ 4671: .navbar-light .navbar-text a {
+ 4672    color: rgba(0, 0, 0, 0.9);
+ 4673  }
+ 4674  
+ 4675: .navbar-light .navbar-text a:hover, .navbar-light .navbar-text a:focus {
+ 4676    color: rgba(0, 0, 0, 0.9);
+ 4677  }
+ 4678  
+ 4679: .navbar-dark .navbar-brand {
+ 4680    color: #fff;
+ 4681  }
+ 4682  
+ 4683: .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
+ 4684    color: #fff;
+ 4685  }
+ 4686  
+ 4687: .navbar-dark .navbar-nav .nav-link {
+ 4688    color: rgba(255, 255, 255, 0.5);
+ 4689  }
+ 4690  
+ 4691: .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+ 4692    color: rgba(255, 255, 255, 0.75);
+ 4693  }
+ 4694  
+ 4695: .navbar-dark .navbar-nav .nav-link.disabled {
+ 4696    color: rgba(255, 255, 255, 0.25);
+ 4697  }
+ 4698  
+ 4699: .navbar-dark .navbar-nav .show > .nav-link,
+ 4700: .navbar-dark .navbar-nav .active > .nav-link,
+ 4701: .navbar-dark .navbar-nav .nav-link.show,
+ 4702: .navbar-dark .navbar-nav .nav-link.active {
+ 4703    color: #fff;
+ 4704  }
+ 4705  
+ 4706: .navbar-dark .navbar-toggler {
+ 4707    color: rgba(255, 255, 255, 0.5);
+ 4708    border-color: rgba(255, 255, 255, 0.1);
+ 4709  }
+ 4710  
+ 4711: .navbar-dark .navbar-toggler-icon {
+ 4712    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+ 4713  }
+ 4714  
+ 4715: .navbar-dark .navbar-text {
+ 4716    color: rgba(255, 255, 255, 0.5);
+ 4717  }
+ 4718  
+ 4719: .navbar-dark .navbar-text a {
+ 4720    color: #fff;
+ 4721  }
+ 4722  
+ 4723: .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
+ 4724    color: #fff;
+ 4725  }
+ ....
+ 10191      min-width: 992px !important;
+ 10192    }
+ 10193:   .navbar {
+ 10194      display: none;
+ 10195    }
+
+/Users/julia/Documents/Programming/coursearea/training/modul3-solution/css/style.css:
+   34  /* ********** Extra small devices only ************* */
+   35  @media (max-width: 767px) { 
+   36: 	.navbarNav {
+   37  		position: absolute;
+   38  		right: 30px;
+
+/Users/julia/Documents/Programming/coursearea/training/modul3-solution/index.html:
+   17    <div id="navContainer">
+   18        
+   19:       <nav class="navbar navbar-expand-lg navbar-light bg-light">
+   20:         <a class="navbar-brand" href="#">Food, LLC</a>
+   21    
+   22       
+   23:       <button class="navbar-toggler d-block d-sm-none" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+   24:       <span class="navbar-toggler-icon"></span>
+   25        </button>
+   26:         <div class="collapse navbar-collapse" id="navbarNav">
+   27:           <ul class="navbar-nav">
+   28              <li class="nav-item">
+   29                <a class="nav-link" href="#">Chicken</a>
+   ..
+   38          </div>
+   39  
+   40:       </nav> <!-- End of .navbar -->
+   41  
+   42    </div> <!-- End of #navContainer -->
+
+/Users/julia/Documents/Programming/coursearea/training/responsive_restaurant/single-category.html:
+   15    
+   16      <header>
+   17:       <nav id="header-nav" class="navbar navbar-default">
+   18          <div class="container">
+   19            
+   20:           <div class="navbar-header">
+   21              <a href="index.html" class="float-left d-none d-lg-block">
+   22                <div id="logo-img" alt="Logo image"></div>
+   ..
+   24  
+   25  
+   26:               <div class="navbar-brand float-left">
+   27                  <a href="index.html"><h1>David Chu's China Bistro</h1></a>
+   28                  <p>
+   ..
+   33  
+   34  
+   35:             <nav class="navbar navbar-expand-lg navbar-light">
+   36:               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+   37:               <span class="navbar-toggler-icon"></span>
+   38                </button>
+   39  
+   40:               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+   41                  
+   42:                 <ul id="nav-list" class="nav navbar-nav mr-auto">
+   43                    <li class="nav-item d-block d-sm-none">
+   44                      <a href="Prob1.html" class="nav-link">
+   ..
+   77                </div><!-- .collapse -->
+   78                
+   79:              </nav> <!-- .navbar --> 
+   80            
+   81:           </div> <!-- .navbar-header -->
+   82  
+   83          </div> <!-- .container -->
+
+232 matches across 4 files
+
+
+Searching 4 files for "navbar-toggler"
+
+/Users/julia/Documents/Programming/coursearea/training/modul3-solution/css/bootstrap.css:
+ 4394  }
+ 4395  
+ 4396: .navbar-toggler {
+ 4397    padding: 0.25rem 0.75rem;
+ 4398    font-size: 1.25rem;
+ ....
+ 4403  }
+ 4404  
+ 4405: .navbar-toggler:hover, .navbar-toggler:focus {
+ 4406    text-decoration: none;
+ 4407  }
+ 4408  
+ 4409: .navbar-toggler-icon {
+ 4410    display: inline-block;
+ 4411    width: 1.5em;
+ ....
+ 4454      flex-basis: auto;
+ 4455    }
+ 4456:   .navbar-expand-sm .navbar-toggler {
+ 4457      display: none;
+ 4458    }
+ ....
+ 4496      flex-basis: auto;
+ 4497    }
+ 4498:   .navbar-expand-md .navbar-toggler {
+ 4499      display: none;
+ 4500    }
+ ....
+ 4538      flex-basis: auto;
+ 4539    }
+ 4540:   .navbar-expand-lg .navbar-toggler {
+ 4541      display: none;
+ 4542    }
+ ....
+ 4580      flex-basis: auto;
+ 4581    }
+ 4582:   .navbar-expand-xl .navbar-toggler {
+ 4583      display: none;
+ 4584    }
+ ....
+ 4625  }
+ 4626  
+ 4627: .navbar-expand .navbar-toggler {
+ 4628    display: none;
+ 4629  }
+ ....
+ 4656  }
+ 4657  
+ 4658: .navbar-light .navbar-toggler {
+ 4659    color: rgba(0, 0, 0, 0.5);
+ 4660    border-color: rgba(0, 0, 0, 0.1);
+ 4661  }
+ 4662  
+ 4663: .navbar-light .navbar-toggler-icon {
+ 4664    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+ 4665  }
+ ....
+ 4704  }
+ 4705  
+ 4706: .navbar-dark .navbar-toggler {
+ 4707    color: rgba(255, 255, 255, 0.5);
+ 4708    border-color: rgba(255, 255, 255, 0.1);
+ 4709  }
+ 4710  
+ 4711: .navbar-dark .navbar-toggler-icon {
+ 4712    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+ 4713  }
+
+/Users/julia/Documents/Programming/coursearea/training/modul3-solution/index.html:
+   21    
+   22       
+   23:       <button class="navbar-toggler d-block d-sm-none" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+   24:       <span class="navbar-toggler-icon"></span>
+   25        </button>
+   26          <div class="collapse navbar-collapse" id="navbarNav">
+
+/Users/julia/Documents/Programming/coursearea/training/responsive_restaurant/single-category.html:
+   34  
+   35              <nav class="navbar navbar-expand-lg navbar-light">
+   36:               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+   37:               <span class="navbar-toggler-icon"></span>
+   38                </button>
+   39  
+
+17 matches across 3 files
+
+
+Searching 4 files for "navbar-toggler"
+
+/Users/julia/Documents/Programming/coursearea/training/modul3-solution/css/bootstrap.css:
+ 4394  }
+ 4395  
+ 4396: .navbar-toggler {
+ 4397    padding: 0.25rem 0.75rem;
+ 4398    font-size: 1.25rem;
+ ....
+ 4403  }
+ 4404  
+ 4405: .navbar-toggler:hover, .navbar-toggler:focus {
+ 4406    text-decoration: none;
+ 4407  }
+ 4408  
+ 4409: .navbar-toggler-icon {
+ 4410    display: inline-block;
+ 4411    width: 1.5em;
+ ....
+ 4454      flex-basis: auto;
+ 4455    }
+ 4456:   .navbar-expand-sm .navbar-toggler {
+ 4457      display: none;
+ 4458    }
+ ....
+ 4496      flex-basis: auto;
+ 4497    }
+ 4498:   .navbar-expand-md .navbar-toggler {
+ 4499      display: none;
+ 4500    }
+ ....
+ 4538      flex-basis: auto;
+ 4539    }
+ 4540:   .navbar-expand-lg .navbar-toggler {
+ 4541      display: none;
+ 4542    }
+ ....
+ 4580      flex-basis: auto;
+ 4581    }
+ 4582:   .navbar-expand-xl .navbar-toggler {
+ 4583      display: none;
+ 4584    }
+ ....
+ 4625  }
+ 4626  
+ 4627: .navbar-expand .navbar-toggler {
+ 4628    display: none;
+ 4629  }
+ ....
+ 4656  }
+ 4657  
+ 4658: .navbar-light .navbar-toggler {
+ 4659    color: #ffe6ff;
+ 4660    border-color: #ffe6ff; 
+ 4661  }
+ 4662  
+ 4663: .navbar-light .navbar-toggler-icon {
+ 4664    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+ 4665  }
+ ....
+ 4704  }
+ 4705  
+ 4706: .navbar-dark .navbar-toggler {
+ 4707    color: rgba(255, 255, 255, 0.5);
+ 4708    border-color: rgba(255, 255, 255, 0.1);
+ 4709  }
+ 4710  
+ 4711: .navbar-dark .navbar-toggler-icon {
+ 4712    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+ 4713  }
+
+/Users/julia/Documents/Programming/coursearea/training/modul3-solution/index.html:
+   21    
+   22       
+   23:       <button class="navbar-toggler d-block d-sm-none" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+   24:       <span class="navbar-toggler-icon"></span>
+   25        </button>
+   26          <div class="collapse navbar-collapse" id="navbarNav">
+
+/Users/julia/Documents/Programming/coursearea/training/responsive_restaurant/single-category.html:
+   34  
+   35              <nav class="navbar navbar-expand-lg navbar-light">
+   36:               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+   37:               <span class="navbar-toggler-icon"></span>
+   38                </button>
+   39  
+
+17 matches across 3 files
